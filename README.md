@@ -41,15 +41,18 @@ npm run dev
 
 
 🧑 User Management
-Method	Endpoint	   |   Description	           | Auth Required
-POST	/api/users/    | Create new user   	       |     ❌
-GET	/api/users/	     |  List all users	         |     ✅
-GET	/api/users/{id}/ | Get user details	         |     ✅
+| Method | Endpoint | Description | Auth Required |
+| --- | --- | --- | --- |
+| POST | ``/api/users/`` | Create new user | ❌ |
+| GET | ``/api/users/`` | List all users | ✅ |
+| GET | ``/api/users/{id}/`` | Get user details | ✅ |
+| DELETE | ``/api/users/{id}/`` | Delete user (❌ Not implemented yet) | ✅ |
 
-Method	Endpoint	             |              Description	                     |Auth Required
-POST	/api/transactions/	     |     Create new transaction	                   |  ✅
-GET	/api/transactions/         |   	List all transactions                      |  ✅
-GET	/api/transactions/{id}/    |  	Get transaction details	                   |  ✅
+| Method | Endpoint | Description | Auth Required |
+| --- | --- | --- | --- |
+| POST | ``/api/transactions/`` | Create new transaction | ✅ |
+| GET | ``/api/transactions/`` | List all transactions | ✅ |
+| GET | ``/api/transactions/{id}/`` | Get transaction details | ✅ |
 
 
 📊 Dashboard
