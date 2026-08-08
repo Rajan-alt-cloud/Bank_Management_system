@@ -78,5 +78,5 @@ npm run dev
 🤝 Contributing
 Pull requests are welcome! For major changes, please open an issue first to discuss what you’d like to change.
 
-Love Demo :- https://bank-management-system-4f8l.onrender.com/admin
+Live Demo :- https://bank-management-system-4f8l.onrender.com/admin
 
